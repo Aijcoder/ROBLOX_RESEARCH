@@ -1,0 +1,5 @@
+stage,label,share_of_dau,share_of_spending_power,who
+trial phase (before 250 highly engaged plays),any (not Restricted),0.2405,0.2753,age-checked 16+ only
+eligible for Kids and Select,Minimal or Mild,1.0,1.0,everyone
+eligible for Kids and Select,Moderate,0.8337,0.8558,everyone except Roblox Kids (5-8)
+any,Restricted,0.1539,0.2002,age-checked 18+ only

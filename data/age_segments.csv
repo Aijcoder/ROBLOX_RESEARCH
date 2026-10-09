@@ -1,0 +1,6 @@
+age_band,share_of_dau,age_check_penetration,share_of_dau_age_checked,account_tier,content_allowed,chat,reachable_in_16plus_trial_phase,relative_spend_per_user,devex_usd_per_robux,relative_creator_value_per_user,relative_creator_value_if_us_18plus_eligible,basis
+5-8,0.1662,0.6,0.0997,Roblox Kids,"Minimal, Mild",off by default,0.0,1.0,0.0038,1.0,,share: derived + assumed split
+9-12,0.1662,0.6,0.0997,Roblox Select,"Minimal, Mild, Moderate","off until age-checked, then gradual",0.0,1.0,0.0038,1.0,,share: derived + assumed split
+13-15,0.2166,0.6,0.13,Roblox Select,"Minimal, Mild, Moderate","off until age-checked, then gradual",0.0,1.0,0.0038,1.0,,share: derived + assumed split
+16-17,0.1444,0.6,0.0866,Roblox (if age-checked) / Roblox Select (if not),"Minimal, Mild, Moderate",on by default if age-checked,0.0866,1.0,0.0038,1.0,,share: derived + assumed split
+18+,0.3065,0.502,0.1539,Roblox (if age-checked) / Roblox Select (if not),"Minimal, Mild, Moderate (+Restricted if checked)",on by default if age-checked,0.1539,1.5,0.0038,1.5,2.13,share: derived

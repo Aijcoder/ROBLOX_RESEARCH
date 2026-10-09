@@ -1,0 +1,39 @@
+{
+ "derived_share_of_dau_under_18": 0.6935,
+ "derived_age_check_penetration_18plus": 0.502,
+ "share_of_dau_by_band": {
+  "5-8": 0.1662,
+  "9-12": 0.1662,
+  "13-15": 0.2166,
+  "16-17": 0.1444,
+  "18+": 0.3065
+ },
+ "tiers_share_of_dau": {
+  "kids": 0.1662,
+  "select": 0.5932,
+  "standard_16plus_checked": 0.2405
+ },
+ "trial_phase_reach_share_of_dau": 0.2405,
+ "trial_phase_reach_range": [
+  0.2189,
+  0.2514
+ ],
+ "trial_phase_share_of_spending_power": 0.2753,
+ "spending_power_by_tier": {
+  "kids": 0.1442,
+  "select": 0.5805,
+  "standard": 0.2753
+ },
+ "us18_devex_premium": 0.421,
+ "creator_value_us18_vs_u18": 2.13,
+ "scratch_signup_age": {
+  "<=8": 0.0534,
+  "9-12": 0.3695,
+  "13-15": 0.2461,
+  "16-17": 0.0825,
+  "18+": 0.2485,
+  "mode_age": 12
+ },
+ "maturity_labels_known": 7809,
+ "maturity_rows": 7814
+}

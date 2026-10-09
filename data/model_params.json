@@ -1,0 +1,311 @@
+{
+ "_readme": "Every model input. type: measured = read from a primary source; derived = arithmetic on measured values; assumed = analyst judgement, shown with the range used. Edit and re-run scripts/06_model.py.",
+ "usd_per_engaged_hour_platform": {
+  "value": 0.0125,
+  "type": "derived",
+  "source": "Roblox Q2 2026 8-K: developer exchange fees $363M / 29B hours engaged = $0.0125 per engaged hour (Q2 2025: $316M / 27.4B = $0.0115). Hour-weighted platform mean, so dominated by top experiences."
+ },
+ "small_game_monetisation_mult": {
+  "value": {
+   "median": 0.4,
+   "sigma": 0.7
+  },
+  "type": "assumed",
+  "source": "Lognormal multiplier on the platform mean for a new solo game (90% interval ~0.13x-1.27x). Rationale: payouts are concentrated (top-1000 creators averaged $1.3M in 2025 vs ~$1.5B total DevEx => ~85% of payouts); third-party ARPDAU ranges for small games ($0.003-$0.025 per DAU-day, RoWatcher) sit at 0.1x-0.8x of the platform mean ($363M / (123M DAU x 91 d) = $0.032)."
+ },
+ "genre_index_absent": {
+  "value": 0.5,
+  "type": "assumed",
+  "source": "Monetisation index used when a Roblox genre has no entry among the 472 top-earning experiences."
+ },
+ "genre_index_shrink_n": {
+  "value": 4,
+  "type": "assumed",
+  "source": "Pseudo-count shrinking the genre earnings-per-CCU index toward 1.0 when few top earners carry the genre."
+ },
+ "genre_index_clip": {
+  "value": [
+   0.6,
+   1.4
+  ],
+  "type": "assumed",
+  "source": "Bounds on the genre index. Narrow on purpose: it is a rank-based proxy (revenue assumed ~1/earning-rank), so it is allowed to tilt results, not decide them."
+ },
+ "genre_index_sigma": {
+  "value": 0.35,
+  "type": "assumed",
+  "source": "Log-sd of noise on the genre index (it is a rank-based proxy, not revenue)."
+ },
+ "prior_traction_odds": {
+  "value": {
+   "median": 0.031,
+   "sigma": 0.8
+  },
+  "type": "assumed",
+  "source": "Prior odds that a competent, deliberately scoped solo release averages >=100 CCU for 12 months: median 3%, 90% interval ~0.8%-10%. Not measurable from public data. Bounded below by the unconditional rate (10,500 creators newly qualified for DevEx in 2025 out of 'millions of creators' => well under 1%) and above by the observation that only ~19,000 experiences have >=1 player at a time (RoWatcher, June 2026) and ~1,370 have >=1,000."
+ },
+ "p_traction_cap": {
+  "value": 0.35,
+  "type": "assumed",
+  "source": "No amount of desk evidence justifies more than ~1-in-3."
+ },
+ "traction_ccu": {
+  "value": 100,
+  "type": "assumed",
+  "source": "Definition of traction: 12-month average concurrent players. 100 CCU-years = 876,000 engaged hours."
+ },
+ "pareto_alpha": {
+  "value": [
+   0.9,
+   1.2
+  ],
+  "type": "derived",
+  "source": "Tail exponent of experiences by CCU. RoWatcher June 2026 counts: 1,370 experiences >=1,000 CCU; 112 >=10,000; 12 >=100,000 => per-decade survival 0.08-0.11 => alpha ~0.96-1.09. Own snapshot (Top Playing Now, ranks 10-98): CCU ~ rank^-0.89 => alpha ~1.12."
+ },
+ "ccu_cap": {
+  "value": 20000,
+  "type": "assumed",
+  "source": "Cap on a solo developer's 12-month average CCU (median CCU of top-earning ranks 1-50 is ~21,700, nearly all group-owned). Keeps the mean from being driven by lottery outcomes."
+ },
+ "fail_ccu_median": {
+  "value": 2,
+  "type": "assumed",
+  "source": "Median 12-month average CCU of a release that does not get traction."
+ },
+ "fail_ccu_sigma": {
+  "value": 1.2,
+  "type": "assumed",
+  "source": "Log-sd of the above."
+ },
+ "tail_value_mult": {
+  "value": [
+   1.0,
+   1.6
+  ],
+  "type": "assumed",
+  "source": "Revenue after month 12 as a multiple of first-year revenue, for games with traction. 227 of the 472 top earners are under 12 months old: lifecycles are short."
+ },
+ "opportunity_wage_usd_h": {
+  "value": 20,
+  "type": "assumed",
+  "source": "Value of one developer hour. Set to your real alternative; sensitivity runs $0 and $40."
+ },
+ "cash_test_usd": {
+  "value": [
+   100,
+   250,
+   500
+  ],
+  "type": "assumed",
+  "source": "Triangular. Paid soft-launch test: Robux at ~$0.0125 each (400 R$ = $4.99) and 4-12 R$ per sponsored visit (third-party, DevForum-sourced range) => $250 buys roughly 1,700-5,000 visits. Plus icons/thumbnails."
+ },
+ "overrun_median": {
+  "value": 1.2,
+  "type": "assumed",
+  "source": "Median schedule overrun multiplier on the three-point hour estimates (planning fallacy)."
+ },
+ "overrun_sigma": {
+  "value": 0.3,
+  "type": "assumed",
+  "source": "Log-sd of overrun."
+ },
+ "upkeep_months_if_fail": {
+  "value": 1,
+  "type": "assumed",
+  "source": "Months of upkeep spent before abandoning a launched game that gets no traction."
+ },
+ "max_mvp_hours_solo": {
+  "value": 160,
+  "type": "assumed",
+  "source": "Stage-2 budget screen: likely MVP hours above this are out of scope for a first, cash-constrained solo project (4 full-time weeks)."
+ },
+ "brand_dependence_cut": {
+  "value": 0.6,
+  "type": "assumed",
+  "source": "If one franchise carries >=60% of an archetype's web attention, the demand is for the brand at least as much as for the mechanic."
+ },
+ "lambda_risk": {
+  "value": 1.0,
+  "type": "assumed",
+  "source": "Risk aversion: V = E[profit] - lambda x E[loss]. lambda=1 means a lost dollar hurts twice as much as a gained dollar helps."
+ },
+ "gates": {
+  "value": {
+   "proto_fraction": 0.35,
+   "A_pass_if_traction": 0.95,
+   "A_pass_if_not": 0.55,
+   "B_pass_if_traction": 0.85,
+   "B_pass_if_not": 0.2
+  },
+  "type": "assumed",
+  "source": "Staged policy. Gate A (after 35% of MVP hours): hands-on fun test, weak filter. Gate B (after MVP + paid soft launch): retention/session metrics vs thresholds, assumed 85% sensitivity and 80% specificity for eventual traction. These error rates are not measured."
+ },
+ "likelihood_ratios": {
+  "_note": "type: assumed. Odds multipliers applied to the prior. WHICH bucket an archetype lands in is decided by measured data (see scripts/06_model.py buckets()); the multiplier RANGES are judgement, drawn log-uniformly each world. Ranges are deliberately narrow for web evidence (cross-archetype rank correlation between web share and Roblox CCU is reported in out/model_summary.json) and wider for evidence observed on Roblox itself.",
+  "web": {
+   "high": [
+    1.1,
+    1.5
+   ],
+   "mid": [
+    0.9,
+    1.2
+   ],
+   "low": [
+    0.7,
+    1.0
+   ]
+  },
+  "brand": {
+   "brand": [
+    0.7,
+    0.9
+   ],
+   "genre": [
+    1.0,
+    1.0
+   ]
+  },
+  "momentum": {
+   "fading": [
+    0.7,
+    0.95
+   ],
+   "flat": [
+    0.95,
+    1.05
+   ],
+   "rising": [
+    1.0,
+    1.2
+   ]
+  },
+  "rbx": {
+   "proven_open": [
+    1.8,
+    3.0
+   ],
+   "live_open": [
+    1.4,
+    2.2
+   ],
+   "live_entrenched": [
+    1.0,
+    1.5
+   ],
+   "thin": [
+    0.8,
+    1.3
+   ],
+   "tried_and_died": [
+    0.35,
+    0.7
+   ],
+   "untested": [
+    0.7,
+    1.2
+   ],
+   "weak_attempts": [
+    0.5,
+    0.9
+   ]
+  },
+  "crowd": {
+   "crowded": [
+    0.45,
+    0.7
+   ],
+   "contested": [
+    0.6,
+    0.9
+   ],
+   "few": [
+    0.8,
+    1.1
+   ],
+   "none": [
+    1.0,
+    1.2
+   ]
+  },
+  "leaders": {
+   "strong": [
+    0.8,
+    1.0
+   ],
+   "ok": [
+    0.95,
+    1.1
+   ],
+   "weak": [
+    1.1,
+    1.4
+   ],
+   "na": [
+    1.0,
+    1.0
+   ]
+  },
+  "fit": {
+   "solo": [
+    0.55,
+    0.8
+   ],
+   "s10": [
+    0.6,
+    0.85
+   ],
+   "rep": [
+    0.6,
+    0.85
+   ],
+   "grief": [
+    0.7,
+    0.9
+   ],
+   "touch": [
+    0.5,
+    0.8
+   ]
+  }
+ },
+ "outer_worlds": {
+  "value": 600,
+  "type": "setting",
+  "source": "Parameter-uncertainty draws."
+ },
+ "inner_draws": {
+  "value": 3000,
+  "type": "setting",
+  "source": "Outcome draws per world."
+ },
+ "genre_l2_min_n": {
+  "value": 20,
+  "type": "assumed",
+  "source": "Minimum number of top-472 earners in a sub-genre before its own index is used; otherwise the parent genre's index applies."
+ },
+ "programme_hour_budgets": {
+  "value": [
+   200,
+   400,
+   800
+  ],
+  "type": "setting",
+  "source": "Total developer-hour budgets for the programme view (several staged bets in sequence)."
+ },
+ "age_gate_16plus_value_share": {
+  "value": 0.28,
+  "type": "derived",
+  "source": "Share of platform spending power a new game can reach while it is still in the 16+ trial phase (before 250 highly engaged plays unlock Roblox Kids and Select). Derived in scripts/09_age_analysis.py from the Q2 2026 shareholder letter: 57% of DAUs age-checked; age-checked mix 35% under 13 / 38% 13-17 / 27% 18+; under-18 penetration 60%; U.S. 18+ monetise 'over 50% higher' than under-18. Assumes 40% of the 13-17 band is 16-17. Used only in a sensitivity scenario."
+ },
+ "us18_devex_premium": {
+  "value": 0.42,
+  "type": "measured",
+  "source": "Roblox, 30 Apr 2026: DevEx rate for eligible in-game spend by age-checked 18+ users in the U.S. is 42% higher ($0.0054 vs $0.0038 per Robux), effective 8 Jun 2026, R15 experiences only."
+ },
+ "us18_spend_share_scenario": {
+  "value": 0.2,
+  "type": "assumed",
+  "source": "Scenario: share of a game's earned Robux that comes from eligible U.S. 18+ spend. Unknown for any given game."
+ }
+}

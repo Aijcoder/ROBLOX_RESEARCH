@@ -1,0 +1,56 @@
+{
+ "_readme": "Age-related facts used by scripts/09_age_analysis.py. type: measured = stated by the source; assumed = analyst judgement needed to split a published band. Retrieved 2026-10-08.",
+
+ "age_checked_share_of_dau": {"value": 0.57, "type": "measured",
+  "source": "Roblox Q2 2026 shareholder letter: 'By the end of Q2, 57% of global DAUs have age-checked'"},
+ "age_checked_mix": {"value": {"under_13": 0.35, "13_17": 0.38, "18_plus": 0.27}, "type": "measured",
+  "source": "Roblox Q2 2026 shareholder letter: '35% of users who have age-checked are under 13, 38% are between the ages of 13 and 17, and 27% are O18'"},
+ "u18_age_check_penetration": {"value": {"global": 0.60, "us": 0.75}, "type": "measured",
+  "source": "Roblox Q2 2026 shareholder letter: 'age-check penetration rates with U18 users are 60% globally and 75% in the U.S.'"},
+ "us_18plus_share_of_age_checked": {"value": 0.333, "type": "measured",
+  "source": "Roblox Q2 2026 shareholder letter: 'in the U.S. O18 users represented approximately one-third of age-checked DAUs'"},
+ "us_18plus_monetisation_ratio_vs_u18": {"value": 1.5, "type": "measured",
+  "source": "Roblox Q2 2026 shareholder letter: 'U.S. O18 users monetize over 50% higher than U18 users' (a lower bound; U.S. only)"},
+ "us_18plus_growth_yoy": {"value": {"dau": 0.32, "hours": 0.27, "dau_18_34": 0.42, "hours_18_34": 0.37}, "type": "measured",
+  "source": "Roblox Q2 2026 shareholder letter"},
+ "young_cohort_monetisation": {"value": "decline in per hour monetization most notably with younger cohorts in the U.S. and Canada", "type": "measured",
+  "source": "Roblox Q2 2026 shareholder letter (no number given)"},
+ "kids_select_catalogue_size": {"value": 30000, "type": "measured",
+  "source": "Roblox Q2 2026 shareholder letter: 'Kids and Select accounts now offer access to about 30,000 games, representing a nearly 50% increase since launch'"},
+
+ "devex_usd_per_robux": {"value": {"standard": 0.0038, "us_18plus_eligible": 0.0054}, "type": "measured",
+  "source": "Roblox creator docs (10,000 Robux = $38) and Roblox newsroom 2026-04-30 (42% higher rate for eligible spend by age-checked U.S. 18+ users in R15 experiences, effective 2026-06-08; game passes, Robux subscriptions, select in-game items, private servers)"},
+
+ "account_tiers": {"type": "measured",
+  "source": "Roblox creator docs, production/publishing/kids-and-select (GitHub main, 2026-10-08)",
+  "value": [
+   {"tier": "Roblox Kids", "who": "self-declared or age-checked 5-8", "content": ["minimal", "mild"],
+    "chat": "off by default; can be enabled by a linked parent once age-checked"},
+   {"tier": "Roblox Select", "who": "age-checked 9-15, and anyone self-declared 9+ who has not completed an age check",
+    "content": ["minimal", "mild", "moderate"], "chat": "off for self-declared accounts; introduced gradually once age-checked"},
+   {"tier": "Roblox", "who": "age-checked 16+", "content": ["minimal", "mild", "moderate"],
+    "chat": "on by default where available", "note": "Restricted content needs age-checked 18+"}
+  ]},
+ "publishing_to_under_16": {"type": "measured",
+  "source": "Roblox creator docs: kids-and-select and publish-games-and-places (GitHub main, 2026-10-08)",
+  "value": {
+   "creator": "account in good standing; verified (government ID if 18+); 2-step verification",
+   "fee_or_subscription": "1,000 Robux one-time refundable publishing fee per game, or an active 2+ month Roblox Plus/Premium subscription",
+   "trial_phase": "the game is first made available only to age-checked users 16 and older",
+   "threshold": "250 unique plays by highly engaged age-checked users within a 60-day window",
+   "highly_engaged": "account tenure + playtime in the game + a minimum purchase anywhere on Roblox in the last 60 days",
+   "expedited_review": "50,000 Robux per game, one-time, refundable after 90 days; 48-hour review",
+   "playtesters": "Limited > Playtesters audience; playtesters who are Trusted Friends of an age-checked owner can enter regardless of age"
+  }},
+
+ "assumptions": {
+  "share_16_17_within_13_17": {"value": 0.40, "range": [0.30, 0.45], "type": "assumed",
+   "source": "Two of the five years in the band. Roblox does not publish a 13-15 / 16-17 split."},
+  "share_5_8_within_under_13": {"value": 0.50, "range": [0.40, 0.55], "type": "assumed",
+   "source": "Third-party (Statista, quoting Roblox, Dec 2024): 20% of users under 9 and 20% aged 9-12. No 2026 figure."},
+  "monetisation_ratio_18plus_applies_globally": {"value": 1.5, "type": "assumed",
+   "source": "The 'over 50% higher' statement is for the U.S.; applied to all regions for lack of anything better."},
+  "under_18_bands_monetise_equally": {"value": 1.0, "type": "assumed",
+   "source": "No published split of spending between under-13 and 13-17. Roblox Kids accounts carry the full set of parental spending controls, so the 5-8 band is probably overstated here."}
+ }
+}

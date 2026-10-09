@@ -1,0 +1,21 @@
+{
+ "n_worlds": 600,
+ "inner": 3000,
+ "web_share_terciles": [
+  0.5520799999999999,
+  1.252958
+ ],
+ "spearman_web_share_vs_roblox_ccu": 0.27,
+ "n_archetypes_modelled": 47,
+ "n_eligible": 38,
+ "top6": [
+  "endless_runner",
+  "penalty_freekick",
+  "launch_distance",
+  "gold_miner_claw",
+  "head_sports",
+  "racket_duel",
+  "physics_destruction",
+  "ragdoll_gore_course"
+ ]
+}

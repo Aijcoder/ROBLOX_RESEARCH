@@ -1,0 +1,1818 @@
+[
+ {
+  "id": "rbx_reverse",
+  "zh": "Roblox反向移植(偷脑腐/Obby/99夜)",
+  "loop": "web clones of current Roblox hits",
+  "rx": "brainrot|\\bobby\\b|99 nights|steal a|steal an|\\+1 speed|keyboard escape|tsunami|grow a garden|murder mystery|roblox|robby|sprunki|squid game|squid:|squid escape|memerot|lucky block|脑腐",
+  "roblox_queries": [
+   "obby"
+  ],
+  "rbx_rx": "$^",
+  "scratch_q": [],
+  "mvp_h": [
+   0,
+   0,
+   0
+  ],
+  "launch_h": 0,
+  "upkeep_h": 0,
+  "rbx_genre": "Obby & Platformer",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "roblox",
+  "note": "Evidence that web portals now clone Roblox hits within weeks; not an arbitrage source.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "mmo_pet_social",
+  "zh": "页游MMO/养成社区(洛克王国/赛尔号/奥比岛)",
+  "loop": "persistent MMO, pet collection, social world",
+  "rx": "洛克王国|赛尔号|奥拉星|卡布西游|奥比岛|小花仙|西普大陆|龙斗士|造梦西游|造梦无双|造梦大乱斗|功夫派|皮卡堂|弹弹堂|三国杀|生死狙击|火线精英|原神|迷你世界|我的世界|奥奇传说|神将世界|三国群英|touch|触动|天空之舞|bit heroes|三国快打|美食大战老鼠|逃跑吧|全民枪神|全民主公|传奇|江湖|封神|剑侠",
+  "roblox_queries": [],
+  "rbx_rx": "$^",
+  "scratch_q": [],
+  "mvp_h": [
+   0,
+   0,
+   0
+  ],
+  "launch_h": 0,
+  "upkeep_h": 0,
+  "rbx_genre": "RPG",
+  "screens": {
+   "s5": false,
+   "s10": false,
+   "rep": false,
+   "grief": "med",
+   "touch": false,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "mmo",
+  "note": "Out of scope: multi-year live-service products, not minigames.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "physics_random_duel",
+  "zh": "随机物理双人对战(Basket/Soccer Random)",
+  "loop": "one-button ragdoll athletes; first to 5; every point re-rolls field/ball/bodies",
+  "rx": "\\b(basket|soccer|volley|boxing|hockey|football|pong) random\\b|getaway shootout|rooftop snipers|wrestle (jump|bros)|tug the table|soccer physics|flip duel|get on top|drunken (boxing|wrestle|duel)|ragdoll (hit|archers|chaos|arena|duel)|puppet fighter|house of hazards|tube jumpers|basketbros|basket bros|soccer bros|football bros|hockey bros|random 2 ?player|stick duel|duel of|疯狂的鸽子|ragdoll soccer|striker dummies|搞怪碰碰球|双人疯狂兔子",
+  "roblox_queries": [
+   "basket random",
+   "soccer random",
+   "ragdoll soccer",
+   "wrestle jump",
+   "rooftop snipers",
+   "ragdoll duel",
+   "physics soccer",
+   "ball vs ball",
+   "2 player ragdoll"
+  ],
+  "rbx_rx": "2d basketball|basket random|soccer random|ragdoll (soccer|basket|football|sport)|wobbly (soccer|sport)|floppy|goofy (soccer|sport)|rooftop snipers|getaway shootout|wrestle jump|random sports",
+  "scratch_q": [
+   "basket random",
+   "soccer random",
+   "getaway shootout"
+  ],
+  "mvp_h": [
+   35,
+   60,
+   110
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Party & Casual",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "arm wrestle"
+ },
+ {
+  "id": "head_sports",
+  "zh": "大头体育对战(Head Soccer/Basketball Stars)",
+  "loop": "1v1 side-view arcade sport with big-head characters, power shots",
+  "rx": "head (soccer|ball|basket|sports)|sports heads|basketball (stars|legends)|football legends|soccer legends|big head|head volley|street ?ball|街篮|热血篮球|tap-tap shots|basket and ball|cannon basketball",
+  "roblox_queries": [
+   "head soccer",
+   "big head football",
+   "basketball stars",
+   "1v1 basketball",
+   "2d soccer"
+  ],
+  "rbx_rx": "head soccer|head ball|head football|big head (soccer|ball|football)|2d soccer|basketball stars",
+  "scratch_q": [
+   "head soccer",
+   "basketball legends"
+  ],
+  "mvp_h": [
+   40,
+   70,
+   130
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Sports",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "coop_duo_puzzle",
+  "zh": "双人合作解谜平台(森林冰火人)",
+  "loop": "two characters with complementary immunities/abilities must both reach exits; levers, plates, timing",
+  "rx": "fireboy|watergirl|fire and water|冰火人|冰娃|火娃|冰火|王子公主|王子与公主|money movers|粘液实验室|闪翼双星|red and blue|red and green|blue and red|pico park|屁王兄弟|双刃战士|冷冻双侠|两个小人|双人逃亡|小怪物探险|茶叶蛋大冒险|魔性兔子人|super bunny man|bad ice.?cream|坏蛋冰淇淋|冰淇凌坏蛋|duo survival|little steps big troubles|3 pandas",
+  "roblox_queries": [
+   "fireboy and watergirl",
+   "2 player obby",
+   "2 player puzzle",
+   "duo obby",
+   "teamwork puzzles",
+   "co-op puzzle",
+   "fire and water obby",
+   "chained together"
+  ],
+  "rbx_rx": "2[ -]?player.*obby|obby.*2[ -]?player|\\[2 ?p(layer)?\\]|duo\\b|together|team ?work|fire.{0,4}water|water.{0,4}fire|chained|1 & 2 player|2-3-4|tank mates|bird buddy|drive it!|be my camera|dog walk|team .*(run|escape|breakout)",
+  "scratch_q": [
+   "fireboy and watergirl",
+   "2 player platformer"
+  ],
+  "mvp_h": [
+   45,
+   80,
+   150
+  ],
+  "launch_h": 80,
+  "upkeep_h": 20,
+  "rbx_genre": "Obby & Platformer",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Content treadmill: demand is per-level; each level is hand-built.",
+  "rbx_ex": "tycoon|\\brp\\b|roleplay|guess|would you rather|steal|lifetogether|pizza|ice cream"
+ },
+ {
+  "id": "bike_trials",
+  "zh": "物理越野摩托关卡(Moto X3M)",
+  "loop": "2D physics bike, throttle/lean, short trap-filled tracks, 3-star times, instant restart",
+  "rx": "moto ?x3m|mx offroad|moto (extreme|trial|maniac|road)|bike (trial|stunt|race)|stunt bike|wheelie|dirt bike|trial(s)? (bike|xtreme)|疯狂摩托|越野摩托|极限越野|摩托|自行车对战|super bike|impossible bike|turbo moto|hill climb|drive mad|eggy car|jelly truck|doodle road|draw.*(bridge|road)|deadly descent|drive quest|装载卡车|truck loader|疯狂过山车|rail in the air",
+  "roblox_queries": [
+   "moto x3m",
+   "bike obby",
+   "dirt bike obby",
+   "obby but you're on a bike",
+   "drive mad",
+   "hill climb"
+  ],
+  "rbx_rx": "obby but you.?re on a|bike obby|skateboard (obby|of hell)|scooter obby|biker duo|bike downhill|dirt bike|bmx|kart of hell|unicycle|drive it!|grapple cart|bike of hell|motorcycle obby|moto obby",
+  "scratch_q": [
+   "moto x3m",
+   "hill climb racing"
+  ],
+  "mvp_h": [
+   50,
+   90,
+   170
+  ],
+  "launch_h": 80,
+  "upkeep_h": 15,
+  "rbx_genre": "Obby & Platformer",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "empire|lifestyle|bikelife|world|evolution|tsunami|wideopen|animals|\\+1"
+ },
+ {
+  "id": "ragdoll_gore_course",
+  "zh": "布娃娃自残/受伤闯关(Happy Wheels/Short Life)",
+  "loop": "ragdoll character through deadly obstacle course; comedy from dismemberment / damage score",
+  "rx": "happy wheels|short life|mutilate a doll|ragdoll playground|kick the buddy|whack your|stickman destruction|break (your )?bones|ragdoll throw|turbo dismount|dismount|整蛊火柴人|handless|amy autopsy|elastic man|ragdoll (sandbox|show)|playground|no pain no gain|spiderdoll|hit him",
+  "roblox_queries": [
+   "happy wheels",
+   "broken bones",
+   "ragdoll",
+   "dismount",
+   "ragdoll playground"
+  ],
+  "rbx_rx": "broken bones|break your (bones|friends)|ragdoll|dismount|fling (things|playground)|survive the slope",
+  "scratch_q": [
+   "happy wheels",
+   "ragdoll"
+  ],
+  "mvp_h": [
+   40,
+   70,
+   130
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Physics Sim",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Roblox content-maturity limits gore; comedy must come from ragdoll, not blood.",
+  "rbx_ex": "tower|\\brp\\b|fighting|skydiving|stack|blood"
+ },
+ {
+  "id": "troll_platformer",
+  "zh": "陷阱/坑人平台(Level Devil/Only Up/Getting Over It)",
+  "loop": "platformer whose level lies to you; or one long punishing climb; death is the joke",
+  "rx": "level devil|troll|cat mario|only up|getting over it|big tower tiny square|史上最坑|史上最贱|是男人就下|只有一道门|going up|rage|unfair|devil level|i wanna|trap adventure|there is no game|achievement unlocked|猫里奥|借力攀登|babel tower",
+  "roblox_queries": [
+   "level devil",
+   "troll obby",
+   "troll tower",
+   "only up",
+   "getting over it",
+   "rage obby"
+  ],
+  "rbx_rx": "troll obby|rage bait|level devil|getting over it|ball and axe|only up|mount kara|deadly obby|climb \\[|troll .*tower|tower.*troll|impossible obby|rage obby|hardest obby",
+  "scratch_q": [
+   "level devil",
+   "getting over it"
+  ],
+  "mvp_h": [
+   30,
+   55,
+   100
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Obby & Platformer",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "endless_runner",
+  "zh": "三车道无尽跑酷(Subway Surfers/Temple Run)",
+  "loop": "auto-run, swipe lanes/jump/slide, coins, speed ramps until you crash",
+  "rx": "subway surf|temple run|talking tom gold run|om nom run|酷跑|跑酷|runner|dino (run|dash|game)|dinosaur game|tunnel rush|逃命的火鸡|jetpack|bus rush|rail rush|surfers|sky riders|slope(?! multi)|slope multiplayer|crazy roll|ball fall|going balls|rolling ball|two ball 3d|color road|summer rider|snow rider|skytrip|aquapark|stair race|tall man|sandwich runner|ice cream stack|count masters|count control|crowd run|blob runner|toilet race|shape dudes|fun race|飞机障碍|萌少年",
+  "roblox_queries": [
+   "subway surfers",
+   "endless runner",
+   "temple run",
+   "slope",
+   "snow rider",
+   "going balls",
+   "tunnel rush"
+  ],
+  "rbx_rx": "subway|endless run|temple run|\\bslope\\b|snow rider|\\bsled|bobsled|^ski$|ski racing|ski or die|speed runner|slide 9|downhill|infinite run|tunnel rush|run or d(ie|ead)",
+  "scratch_q": [
+   "subway surfers",
+   "slope"
+  ],
+  "mvp_h": [
+   40,
+   70,
+   130
+  ],
+  "launch_h": 70,
+  "upkeep_h": 12,
+  "rbx_genre": "Runner",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "nyc subway|automated|marble|survive the slope|bike downhill|speed run 4"
+ },
+ {
+  "id": "precision_platformer",
+  "zh": "竞速/精准平台(Vex/OvO/Run 3)",
+  "loop": "tight-control 2D/3D platformer with speedrun timers and many short stages",
+  "rx": "\\bvex ?\\d|\\bovo\\b|\\brun ?[123]?\\b$|^run\\b|exit path|n game|parkour block|super meat|electric man|g-switch|stickman (parkour|crazy box)|wall jumper|sticky ninja|candy jump|神奇小妖怪|炫酷旋转忍者|飞天忍者猫|neon challenge|sprint league|world's hardest game|小鸭历险记|大嘴怪冒险|超级马里奥(?!水上)|super mario",
+  "roblox_queries": [
+   "parkour",
+   "speed run",
+   "run 3",
+   "vex obby",
+   "wall hop obby",
+   "2d platformer"
+  ],
+  "rbx_rx": "parkour|speed ?run|wall ?hop|2d (obby|platformer)|difficulty chart|tower of|run 3|vex|flood escape",
+  "scratch_q": [
+   "platformer",
+   "parkour"
+  ],
+  "mvp_h": [
+   50,
+   90,
+   170
+  ],
+  "launch_h": 80,
+  "upkeep_h": 15,
+  "rbx_genre": "Obby & Platformer",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "rhythm_auto_runner",
+  "zh": "节奏自动跑酷(Geometry Dash)",
+  "loop": "auto-scrolling one-button obstacle course synced to music; die-and-retry; user levels",
+  "rx": "geometry (dash|vibes|jump|arrow|neon|lite)|space waves|dancing line|rolling sky|beat (jump|dash)|tiles hop|wave dash|impossible game|color tunnel|节奏",
+  "roblox_queries": [
+   "geometry dash",
+   "beat bounce",
+   "rhythm obby",
+   "geometry dash obby",
+   "wave obby"
+  ],
+  "rbx_rx": "geometry|\\bgd\\b|beat bounce|poly dash|dash world|dashblox|electric dash|impossible (game|squares)|rhythm (obby|runner)|wave (obby|dash)",
+  "scratch_q": [
+   "geometry dash",
+   "geometry dash wave"
+  ],
+  "mvp_h": [
+   45,
+   80,
+   150
+  ],
+  "launch_h": 80,
+  "upkeep_h": 15,
+  "rbx_genre": "Runner",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Brand-driven: much of the demand is for Geometry Dash itself (trademark/trade-dress risk).",
+  "rbx_ex": "find the|defense|doomspire|elevator"
+ },
+ {
+  "id": "stickman_swing",
+  "zh": "荡绳/抓钩过关(Stickman Hook)",
+  "loop": "tap-and-hold to grapple the nearest anchor, release with momentum; flow-state swinging",
+  "rx": "stickman hook|hanger|swing(o| monkey| man)|spider (stick|swing)|rope (hero|swing|man)|hook (a|and)|grapple|handulum|钢铁蜘蛛侠|amazing strange rope|web swing|fly this|蜘蛛侠",
+  "roblox_queries": [
+   "stickman hook",
+   "swing obby",
+   "grapple obby",
+   "web swing",
+   "spider swing",
+   "rope swing obby"
+  ],
+  "rbx_rx": "swing|grappl|\\bhook\\b|web ?sling|zipline|spider-?man|rope",
+  "scratch_q": [
+   "stickman hook",
+   "grappling hook"
+  ],
+  "mvp_h": [
+   35,
+   60,
+   110
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Obby & Platformer",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "jump rope|fish|kill|evolution|pickaxe|katana|simulator|survive|^spider$|hooked!"
+ },
+ {
+  "id": "io_eat_grow",
+  "zh": "吞噬成长竞技场(agar/slither/hole.io/大鱼吃小鱼)",
+  "loop": "move, eat smaller things/players, grow, get eaten; instant respawn",
+  "rx": "agar|slither|snake\\.?io|snake vs|worms?\\.?zone|little ?big ?snake|gulper|hole\\.?io|holey|hole io|大鱼吃小鱼|fish eat|eat.*grow|feeding frenzy|flyordie|fly or die|evoworld|evowars|stabfish|minigiants|happy snakes|贪食蛇|贪吃蛇|蛇蛇大作战|吃水果的小蛇|snake game|^snake$|powerline|cubes 2048|growden|eat the world|blob|吃豆豆|salmonz|duckpark|petnest|monkey tag io|you monster|dino simulator|meeland|mope|chompers|snowball\\.io|霸气的蠕虫|eating simulator|google snake",
+  "roblox_queries": [
+   "agar",
+   "slither",
+   "hole.io",
+   "eat the world",
+   "snake io",
+   "eat blobs",
+   "fish eat fish",
+   "eat to grow"
+  ],
+  "rbx_rx": "agar|slither|snake|\\bworm\\b|worm odyssey|\\bhole\\b|be a hole|eat (the|blob|fish|everything)|blob|devour|absorb|fish eat|black hole|world\\.io|cellular|be a tornado|tank game|^tanks!|diep",
+  "scratch_q": [
+   "agar.io",
+   "slither.io",
+   "hole.io"
+  ],
+  "mvp_h": [
+   40,
+   70,
+   130
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Party & Casual",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Needs bots to feel alive at low CCU.",
+  "rbx_ex": "scp|hole in the wall|fishing|tower|hungry|wormface|inchworm|cave"
+ },
+ {
+  "id": "io_territory",
+  "zh": "圈地/占领(paper.io/Hexanaut/领地之争)",
+  "loop": "leave base, draw a loop, close it to claim area; trail is your weakness",
+  "rx": "paper\\.?io|paperio|hexanaut|splix|tileman|defly|territor|领地|land grab|color fill|hexellent|openfront|frontwars|conquer|pixel conquest",
+  "roblox_queries": [
+   "paper.io",
+   "territory io",
+   "claim territory",
+   "hexanaut",
+   "color the map",
+   "conquer territory"
+  ],
+  "rbx_rx": "territor|paper\\.?io|color\\.io|paint\\.io|color game|capture for|splat|hexa|land\\.io|claim (the|land|tiles)",
+  "scratch_q": [
+   "paper.io",
+   "territory"
+  ],
+  "mvp_h": [
+   45,
+   80,
+   150
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Strategy",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "conquer the world|rts|country"
+ },
+ {
+  "id": "io_arena_shooter",
+  "zh": "网页FPS/建造对枪/吃鸡(Shell Shockers/1v1.lol)",
+  "loop": "browser FPS deathmatch / build-fight / battle royale",
+  "rx": "shell shockers|krunker|1v1|buildnow|veck\\.io|kour|kirka|voxiom|cryzen|repuls|bullet force|hazmob|fragen|forward assault|pixel warfare|skillwarz|poxel|fortzone|battle royale|winter clash|bodycamera|time shooter|吃鸡|枪战|反恐|狙击|sniper|fps|shooter|counter craft|rush team|surviv\\.io|battledudes|copter royale|guns guns|bullet bros|方块世界|名枪|特工|blockade3d|assault bots|rescue six",
+  "roblox_queries": [
+   "1v1 build fight",
+   "fps arena",
+   "gun game",
+   "battle royale"
+  ],
+  "rbx_rx": "rivals|arsenal|fps|1v1|gun|shooter|battle royale|sniper|duels",
+  "scratch_q": [],
+  "mvp_h": [
+   150,
+   260,
+   450
+  ],
+  "launch_h": 200,
+  "upkeep_h": 40,
+  "rbx_genre": "Deathmatch Shooter",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "med",
+   "touch": false,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Roblox's most contested, studio-dominated genre; anti-cheat mandatory.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "sandbox_voxel",
+  "zh": "体素沙盒/多模式(Bloxd/Miniblox/MineFun)",
+  "loop": "minecraft-like voxel sandbox with minigame modes",
+  "rx": "bloxd|miniblox|minefun|vectaria|cuberealm|paper minecraft|grindcraft|sandbox city|minecraft|craft(?!sman)|aground",
+  "roblox_queries": [
+   "minecraft",
+   "voxel sandbox"
+  ],
+  "rbx_rx": "craft|voxel|block.*(world|build)|mine.*build",
+  "scratch_q": [],
+  "mvp_h": [
+   200,
+   350,
+   600
+  ],
+  "launch_h": 200,
+  "upkeep_h": 40,
+  "rbx_genre": "Sandbox",
+  "screens": {
+   "s5": false,
+   "s10": false,
+   "rep": false,
+   "grief": "med",
+   "touch": false,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "kart_battle",
+  "zh": "卡丁车道具乱斗(Smash Karts)",
+  "loop": "small arena, drive, pick up weapon box, blow up others, 3-min rounds",
+  "rx": "smash karts|kart|碰碰车|bumper car|derby crash|demolition derby|crash karts|泡泡堂卡丁车|battle cars",
+  "roblox_queries": [
+   "smash karts",
+   "kart battle",
+   "bumper cars",
+   "kart racing",
+   "demolition derby"
+  ],
+  "rbx_rx": "kart (arena|wars|battle)|smash kart|bumper (cars|balls)|car battles|roblox karts|crash cars|kart racing|karting",
+  "scratch_q": [
+   "smash karts",
+   "mario kart"
+  ],
+  "mvp_h": [
+   70,
+   120,
+   220
+  ],
+  "launch_h": 100,
+  "upkeep_h": 20,
+  "rbx_genre": "Vehicle Sim",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "obby|of hell|\\+1|tsunami|chocolate"
+ },
+ {
+  "id": "tank_maze_duel",
+  "zh": "迷宫坦克弹射对战(坦克动荡/Tank Trouble)",
+  "loop": "top-down tanks in a maze; bullets ricochet; one hit kills; 10-second rounds",
+  "rx": "tank trouble|坦克动荡|az tank|awesome tanks|tank stars|tanks? (battle|arena|mayhem|duel|fury)|坦克大战|3d坦克|全民坦克|diep|hills of steel|经典90坦克|tank",
+  "roblox_queries": [
+   "tank trouble",
+   "tank battle",
+   "tank maze",
+   "tank duel",
+   "ricochet tanks",
+   "diep"
+  ],
+  "rbx_rx": "tank trouble|ttank|ricochet|tank (fight|duel|maze|arena)|tanks? battle",
+  "scratch_q": [
+   "tank trouble",
+   "tank game"
+  ],
+  "mvp_h": [
+   40,
+   70,
+   130
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Action",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "fish tank|tank mates|merge|tycoon|train"
+ },
+ {
+  "id": "bomberman",
+  "zh": "炸弹人迷宫(Q版泡泡堂/Bomb It/Playing With Fire)",
+  "loop": "grid maze, drop bombs, blast walls for power-ups, trap opponents",
+  "rx": "泡泡堂|bomb it|playing with fire|bomber|炸弹人|blast buddies|boom(?!erang)",
+  "roblox_queries": [
+   "bomberman",
+   "bomb it",
+   "bomber arena",
+   "bomb maze",
+   "playing with fire"
+  ],
+  "rbx_rx": "bomber(man)?\\b|bomb it|bomb maze|playing with fire|blast zone|super bomb survival|bomb arena",
+  "scratch_q": [
+   "bomberman"
+  ],
+  "mvp_h": [
+   45,
+   80,
+   150
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Party & Casual",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "squadron|railway"
+ },
+ {
+  "id": "tower_defense",
+  "zh": "塔防/植物大战僵尸",
+  "loop": "place units along lanes/paths; waves; upgrade economy",
+  "rx": "植物大战僵尸|plants vs|bloons|tower defen|kingdom rush|皇家守卫军|皇城突袭|保卫萝卜|cursed treasure|守卫|守城|creeper world|perfect tower|塔防|age of war|战争进化史|米拉奇战记|stick war|火柴人战争|城邦争霸|西游大战僵尸|英雄防线|小猴子守城|war the knights|janissary|swords and sandals",
+  "roblox_queries": [
+   "tower defense",
+   "plants vs zombies",
+   "plants vs brainrots",
+   "bloons"
+  ],
+  "rbx_rx": "tower defen|\\btd\\b|defense|plants vs|bloons",
+  "scratch_q": [
+   "tower defense",
+   "plants vs zombies"
+  ],
+  "mvp_h": [
+   120,
+   200,
+   350
+  ],
+  "launch_h": 160,
+  "upkeep_h": 40,
+  "rbx_genre": "Tower Defense",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": false,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Proven and monetises well on Roblox, but crowded with studios (22 of top-472 earners).",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "gold_miner_claw",
+  "zh": "摆钩抓取时机(黄金矿工/Claw)",
+  "loop": "swinging hook; press at the right moment; heavier loot reels slower; hit quota in 60 s; shop between rounds",
+  "rx": "黄金矿工|gold miner|claw master|claw|抓娃娃|dig gold miner|reel gold|钻头车挖宝石|挖地小子|gold dig",
+  "roblox_queries": [
+   "gold miner",
+   "claw machine",
+   "claw",
+   "grab the gold"
+  ],
+  "rbx_rx": "gold miner|claw fishing|grab.*gold|claw machine|the claw|be a claw",
+  "scratch_q": [
+   "gold miner",
+   "claw machine"
+  ],
+  "mvp_h": [
+   25,
+   45,
+   85
+  ],
+  "launch_h": 50,
+  "upkeep_h": 10,
+  "rbx_genre": "Incremental Simulator",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "\\+1 claw"
+ },
+ {
+  "id": "fishing_timing",
+  "zh": "钓鱼升级(Tiny Fishing)",
+  "loop": "cast depth, hook as many as possible on the way up, upgrade line/depth",
+  "rx": "tiny fishing|fishing|钓鱼|海边钓鱼|fish(ing)? (master|life|tycoon)|the farmer",
+  "roblox_queries": [
+   "tiny fishing",
+   "fishing simulator",
+   "fisch"
+  ],
+  "rbx_rx": "fish(?!.*eat)",
+  "scratch_q": [
+   "fishing game"
+  ],
+  "mvp_h": [
+   60,
+   100,
+   180
+  ],
+  "launch_h": 100,
+  "upkeep_h": 25,
+  "rbx_genre": "Incremental Simulator",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Fisch-era fishing sims are saturated on Roblox.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "launch_distance",
+  "zh": "发射飞行+升级(Learn to Fly/Burrito Bison/Dolphin Olympics)",
+  "loop": "one launch input, watch flight, bounce/boost, earn by distance, buy upgrades, launch again",
+  "rx": "learn to fly|learn fly|burrito bison|toss the turtle|kitten cannon|dolphin olympics|crazy flips|golf orbit|launch|flight|fly (far|away)|into space|rocket (toss|launch)|hobo launch|johnny upgrade|potty racers|stone skipping|ragdoll cannon|shoot.*cannon|炮打|cannon|solipskier|accelerator|duck life space",
+  "roblox_queries": [
+   "learn to fly",
+   "launch simulator",
+   "cannon launch",
+   "slingshot",
+   "stone skipping",
+   "how far can you fly",
+   "launch yourself"
+  ],
+  "rbx_rx": "stone skipping|egg skipping|launch|cannon vs|slingshot|catapult|fly (far|a glider)|how far|yeet|kick a lucky block|kick ball to space|hit a golf ball|ping pong training|throw (a|your|the)|glide tower|learn to fly|paper plane|\\+1 .*throw|kick .* (far|off)|goal kick",
+  "scratch_q": [
+   "learn to fly",
+   "burrito bison"
+  ],
+  "mvp_h": [
+   25,
+   45,
+   85
+  ],
+  "launch_h": 50,
+  "upkeep_h": 15,
+  "rbx_genre": "Incremental Simulator",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "flight (simulator|world|master)|airport|pilot|project flight|airstrike|nuke|launch things"
+ },
+ {
+  "id": "train_and_race",
+  "zh": "养成训练→比赛(Duck Life)",
+  "loop": "train stats with 20-second minigames, then auto-race rivals; stat gates tournaments",
+  "rx": "duck ?life|小鸭子游泳|pet race|race clicker|train.*race|olympics(?!.*dolphin)",
+  "roblox_queries": [
+   "duck life",
+   "race clicker",
+   "pet racing",
+   "train and race",
+   "speed training race"
+  ],
+  "rbx_rx": "duck life|race clicker|train.*(race|speed)|speed (race|run sim)|\\+1 speed|racing sim|legends of speed",
+  "scratch_q": [
+   "duck life"
+  ],
+  "mvp_h": [
+   50,
+   85,
+   160
+  ],
+  "launch_h": 80,
+  "upkeep_h": 20,
+  "rbx_genre": "Incremental Simulator",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": false,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "time_mgmt_cooking",
+  "zh": "订单制作/时间管理(老爹系列/烹饪)",
+  "loop": "customers order, assemble item through stations against the clock, tips, shop upgrades",
+  "rx": "papa.?s |papa louie|老爹|cooking|cook|烹饪|蛋糕|食谱|汉堡|burger|pizza|bartender|coffee shop|lemonade|煎饼|甜甜圈|restaurant|diner|monkey mart|my perfect hotel|farm frenzy|做饭|烤|奶油鸡|ice cream|cafe|bakery|piece of cake|supermarket|goods master|school cleaning|robo cleaner|60 second burger",
+  "roblox_queries": [
+   "papa's pizzeria",
+   "cooking game",
+   "restaurant tycoon",
+   "work at a pizza place",
+   "my restaurant",
+   "cafe"
+  ],
+  "rbx_rx": "restaurant|pizza|cook|cafe|bakery|burger|diner|kitchen|chef|sushi|bakeon",
+  "scratch_q": [
+   "papa's pizzeria",
+   "cooking"
+  ],
+  "mvp_h": [
+   90,
+   150,
+   270
+  ],
+  "launch_h": 120,
+  "upkeep_h": 30,
+  "rbx_genre": "Tycoon",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": false,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Roblox equivalents (restaurant tycoons, Work at a Pizza Place) are long-established.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "idle_clicker",
+  "zh": "放置/点击增量(Cookie Clicker/Idle Breakout)",
+  "loop": "click, buy generators, prestige",
+  "rx": "clicker|idle|cookie|incremental|trimps|reactor|incremancer|增量|点击器|躺平模拟器|capybara|planet clicker|tycoon|mining empire|startup|皇帝成长计划|mowing|lumber|mr\\.? mine|heavy mining|成长计划|摆摊|cell to singularity",
+  "roblox_queries": [
+   "clicker simulator",
+   "idle game",
+   "incremental"
+  ],
+  "rbx_rx": "clicker|idle|incremental|\\+1|simulator|tycoon",
+  "scratch_q": [
+   "clicker",
+   "idle game"
+  ],
+  "mvp_h": [
+   40,
+   70,
+   130
+  ],
+  "launch_h": 80,
+  "upkeep_h": 30,
+  "rbx_genre": "Incremental Simulator",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": false,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "This IS the Roblox meta (72 Incremental + 75 Tycoon in top-472 earners). No arbitrage gap.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "merge_drop",
+  "zh": "合成掉落(Suika/2048/合成)",
+  "loop": "drop/merge identical items into bigger ones; board fills up",
+  "rx": "suika|watermelon|2048|merge|合成|西瓜|mergest|knife merge|ball shooter 2048|stick merge|养了个羊|消灭星星|block blast|blocky blast|tentrix|block ?buster|block blaster|tetris|方块|screw|sort|分装|color (stack|match|shape)|tower swap|one line|goods|anycolor",
+  "roblox_queries": [
+   "suika",
+   "watermelon game",
+   "merge fruit",
+   "2048",
+   "block blast",
+   "merge"
+  ],
+  "rbx_rx": "suika|watermelon|2048|fruit game|merge fruit|block blast|tetris|color stack|stack the shapes|\\bsort",
+  "scratch_q": [
+   "suika",
+   "2048"
+  ],
+  "mvp_h": [
+   25,
+   45,
+   85
+  ],
+  "launch_h": 40,
+  "upkeep_h": 8,
+  "rbx_genre": "Match & Merge",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Demand skews to adult casual/mobile; Roblox puzzle trending median CCU is the lowest of all genres.",
+  "rbx_ex": "merge a|army"
+ },
+ {
+  "id": "classic_board_card",
+  "zh": "棋牌/连连看/泡泡龙/麻将(传统休闲)",
+  "loop": "classic tabletop, matching and card games",
+  "rx": "连连看|麻将|mahjong|斗地主|象棋|chess|五子|军棋|拖拉机|纸牌|solitaire|checkers|ludo|uno|four colors|crazy eights|bubble (shoot|blast|storm)|祖玛|zuma|打豆豆|斗兽棋|飞行棋|tic tac toe|four in a row|mancala|hangman|word|crossword|sudoku|minesweeper|jewel|match ?3|candy|domino|backgammon|trivia|quiz|guessr|brain test|iq ball|bloxorz|sugar,? sugar|factory balls|civiballs|push the box|unpuzzle|multitask|塔罗|扑克|master chess|对对碰|消除|小鳄鱼爱洗澡|cut the rope|water flow|thief puzzle|draw (to save|the ways)|save the doge|帮鸟儿解冻|亚当|逃出|escape (game|room)|trace|hidden|find (me|the)|爸爸把我手机|家里的故事|机械迷城|snail bob|wheely|蜗牛|河马饲养员|逗小猴|longcat|perfect shape|teleport master|hide the evidence|大富翁|跑得快|泡泡龙|消你妹|snakes and ladders|connect 4|smarty bubbles|wood block|block champ|what's the difference|guess the|darts|breakout",
+  "roblox_queries": [
+   "chess",
+   "uno",
+   "mahjong",
+   "bubble shooter",
+   "word game",
+   "escape room"
+  ],
+  "rbx_rx": "chess|uno|mahjong|bubble|word|bingo|monopoly|sudoku|minesweeper|escape room",
+  "scratch_q": [
+   "chess",
+   "bubble shooter"
+  ],
+  "mvp_h": [
+   30,
+   60,
+   120
+  ],
+  "launch_h": 40,
+  "upkeep_h": 8,
+  "rbx_genre": "Puzzle",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": false
+  },
+  "origin": "web",
+  "note": "Audience mismatch (adult casual). Kept in the database as a control group.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "fruit_slice",
+  "zh": "切割手感(切水果/Slice Master)",
+  "loop": "swipe or tap-to-flip a blade through objects; juice + combo",
+  "rx": "切水果|fruit ninja|水果忍者|slice master|slice|切块|knife (hit|up|rain)|chop|cut it|slicing",
+  "roblox_queries": [
+   "fruit ninja",
+   "slice master",
+   "slicing simulator",
+   "cut fruit",
+   "knife flip"
+  ],
+  "rbx_rx": "fruit ninja|fruit samurai|slic(e|ing)|cut (stuff|a fruit|fruit)|chop",
+  "scratch_q": [
+   "fruit ninja",
+   "slice master"
+  ],
+  "mvp_h": [
+   25,
+   45,
+   85
+  ],
+  "launch_h": 50,
+  "upkeep_h": 10,
+  "rbx_genre": "Incremental Simulator",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "grass|cut it out|tree|engine"
+ },
+ {
+  "id": "physics_destruction",
+  "zh": "物理爆破/攻城(高楼爆破/Crush the Castle/星球毁灭)",
+  "loop": "aim one shot / place charges; watch structure collapse; score by destruction",
+  "rx": "爆破|crush the castle|angry birds|demolition(?! derby)|destroy|destruction|planet smash|smash (the|city)|tear blocks down|机器人攻城|siege|wrecking|bomb the|royal smash|kick lucky|pc breakdown|kill time in your office|crazy office|domino peak|干掉太阳|愤怒的小鸟|build and crush|car crash simulator|sportcars crash",
+  "roblox_queries": [
+   "destroy the building",
+   "demolition",
+   "angry birds",
+   "smash the city",
+   "destruction simulator",
+   "crush the castle"
+  ],
+  "rbx_rx": "destroy|destruct|demolit|smash (the|a)|wreck|angry (birds|block)|car crushers|build and crush|crush",
+  "scratch_q": [
+   "angry birds",
+   "destruction"
+  ],
+  "mvp_h": [
+   35,
+   60,
+   110
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Physics Sim",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "merge a nuke|escape|animatronics"
+ },
+ {
+  "id": "draw_guess_party",
+  "zh": "你画我猜(skribbl/Draw This)",
+  "loop": "one draws a prompt, others type guesses",
+  "rx": "skribbl|gartic|draw this|draw (it|and guess)|你画我猜|奇妙画板|沙画|color artist|coloring",
+  "roblox_queries": [
+   "draw it",
+   "guess the drawing",
+   "skribbl",
+   "speed draw",
+   "draw and guess"
+  ],
+  "rbx_rx": "draw|doodle|sketch|paint",
+  "scratch_q": [
+   "draw and guess"
+  ],
+  "mvp_h": [
+   60,
+   100,
+   180
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Party & Casual",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": true,
+   "grief": "high",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Free-draw + chat is a moderation and griefing liability.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "hide_seek_prop",
+  "zh": "躲猫猫/变身道具(Hide Online/Prop Hunt)",
+  "loop": "hiders become props; seekers shoot; short rounds",
+  "rx": "hide online|prop (hunt|busters)|hunters and props|hide (and|n) (seek|paint)|躲猫猫|hide or|paint or hunt",
+  "roblox_queries": [
+   "hide and seek",
+   "prop hunt"
+  ],
+  "rbx_rx": "hide|prop hunt|seek",
+  "scratch_q": [
+   "hide and seek"
+  ],
+  "mvp_h": [
+   60,
+   100,
+   180
+  ],
+  "launch_h": 80,
+  "upkeep_h": 15,
+  "rbx_genre": "Party & Casual",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "med",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Roblox natives (Hide and Seek Extreme etc.) long established.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "tag_arena",
+  "zh": "小场地追逐抓人(Tag)",
+  "loop": "2-4 players, tiny platform arena, 'it' passes on touch, timer",
+  "rx": "^tag$|tag run|\\btag\\b(?! io)|freeze tag|duck duck|抓人|hot potato|timebomb|time bomb",
+  "roblox_queries": [
+   "tag",
+   "untitled tag game",
+   "freeze tag",
+   "bomb tag",
+   "hot potato"
+  ],
+  "rbx_rx": "\\btag\\b|hot potato|time ?bomb|infection",
+  "scratch_q": [
+   "tag game"
+  ],
+  "mvp_h": [
+   30,
+   55,
+   100
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Party & Casual",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "car_stunt_drift",
+  "zh": "开放场地飙车/漂移/特技(Madalin/Drift Hunters/3D飙车)",
+  "loop": "free-roam or lap driving, drift score, ramps",
+  "rx": "drift|madalin|stunt car|飙车|赛车|四驱|跑车|racing|racer|rally|traffic (rider|run)|highway|night city|car (driver|circle)|polytrack|flying car|trackracing|drag racer|burnout|offroad|russian|truck driver|tuk tuk|police chase|carnado|grand (city|extreme)|punk racing|极速飞车|水上摩托|公路汽车|货车|拉力赛|jetpack racing|super star car|bus driver|ships 3d|real city|street car|air fighter|疯狂战车|完美漂移|车",
+  "roblox_queries": [
+   "drift",
+   "stunt cars",
+   "car racing",
+   "drift simulator"
+  ],
+  "rbx_rx": "drift|racing|car|driving|drive",
+  "scratch_q": [
+   "racing game"
+  ],
+  "mvp_h": [
+   100,
+   180,
+   320
+  ],
+  "launch_h": 140,
+  "upkeep_h": 30,
+  "rbx_genre": "Vehicle Sim",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": false,
+   "grief": "low",
+   "touch": false,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Vehicle sims are an established, asset-heavy Roblox category (26 of top-472 earners).",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "parking_traffic_puzzle",
+  "zh": "停车/交通疏导(Parking Fury/Traffic Jam)",
+  "loop": "steer into bay without scratching / untangle jam",
+  "rx": "parking|停车|traffic jam|car out|traffic escape|unblock|my parking lot|clear the jam",
+  "roblox_queries": [
+   "parking",
+   "traffic jam puzzle",
+   "car parking",
+   "parking jam"
+  ],
+  "rbx_rx": "parking (jam|panic|level)|car parking|draw parking|traffic (flow|jam|escape)|my parking lot|unblock",
+  "scratch_q": [
+   "parking"
+  ],
+  "mvp_h": [
+   40,
+   70,
+   130
+  ],
+  "launch_h": 50,
+  "upkeep_h": 10,
+  "rbx_genre": "Puzzle",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "clean|wideopen|roanoke|overtake|my parking lot|tycoon"
+ },
+ {
+  "id": "pool_billiards",
+  "zh": "台球(8 Ball Pool/彩8对战)",
+  "loop": "turn-based cue aiming, 1v1",
+  "rx": "8 ?ball|billiard|pool (live|club|game)|\\bpool\\b|台球|彩8|桌球|snooker",
+  "roblox_queries": [
+   "8 ball pool",
+   "pool",
+   "billiards"
+  ],
+  "rbx_rx": "8.?ball|billiard|snooker|pool (duels|classic|1v1|hall)",
+  "scratch_q": [
+   "8 ball pool"
+  ],
+  "mvp_h": [
+   60,
+   100,
+   180
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Sports",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": false,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "swimming|deep|dive|noodle|leave pool|clean|bowling"
+ },
+ {
+  "id": "mini_golf",
+  "zh": "迷你高尔夫",
+  "loop": "aim/power putt through trick holes; party turn order",
+  "rx": "mini ?golf|golf|wonderputt|putt",
+  "roblox_queries": [
+   "mini golf",
+   "golf",
+   "super golf"
+  ],
+  "rbx_rx": "mini ?golf|super golf|golf frenzy|realistic golf|crazy golf|deadly golf|dab golf|putt",
+  "scratch_q": [
+   "mini golf"
+  ],
+  "mvp_h": [
+   55,
+   90,
+   170
+  ],
+  "launch_h": 80,
+  "upkeep_h": 15,
+  "rbx_genre": "Sports",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "clean|picker|tycoon|training|lucky block|hit a golf ball|obby"
+ },
+ {
+  "id": "penalty_freekick",
+  "zh": "点球/任意球(Penalty Shooters/Free Kick)",
+  "loop": "swipe to shoot, then keep; best of 5",
+  "rx": "penalty|free ?kick|world cup (kicks|soccer caps)|soccer skills|点球|任意球|soccer real|cg fc|no fault cup|soccer caps|curve ball|retro bowl|football legends",
+  "roblox_queries": [
+   "penalty shootout",
+   "free kick",
+   "penalty kick",
+   "football penalty"
+  ],
+  "rbx_rx": "penalty|free ?kick|shootout|goalkeeper|winning penalty",
+  "scratch_q": [
+   "penalty kick"
+  ],
+  "mvp_h": [
+   35,
+   60,
+   110
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Sports",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "lucky block|needoh|door"
+ },
+ {
+  "id": "racket_duel",
+  "zh": "火柴人羽毛球/乒乓/网球对打",
+  "loop": "side-view rally; move + swing timing; first to N",
+  "rx": "羽毛球|badminton|ping pong|table tennis|tennis|乒乓|网球|排球|volley(?! random)|沙滩球|pong(?! random)",
+  "roblox_queries": [
+   "badminton",
+   "ping pong",
+   "table tennis",
+   "tennis",
+   "volleyball 2d"
+  ],
+  "rbx_rx": "racket|badminton|ping ?pong|table tennis|tennis|pong rivals|padel",
+  "scratch_q": [
+   "badminton",
+   "pong"
+  ],
+  "mvp_h": [
+   40,
+   70,
+   130
+  ],
+  "launch_h": 60,
+  "upkeep_h": 12,
+  "rbx_genre": "Sports",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "training|volleyball"
+ },
+ {
+  "id": "stickman_brawler",
+  "zh": "横版格斗/火柴人乱斗(死神VS火影/拳皇wing/Supreme Duelist)",
+  "loop": "2D platform fighter, 1v1 or FFA, special moves; local 2P on web",
+  "rx": "死神vs火影|死神VS火影|拳王|拳皇|king of fighters|乱斗|格斗|妖尾|真人快打|铁拳|stick(man)? (fight|kombat|battle|clash|duel|epic|arena|dragon)|supreme duelist|superfighters|super fighters|gun mayhem|疯狂小人战斗|混乱大枪战|火柴人.*(决斗|格斗|战士|神器)|双人决斗|mechastick|karate|dragon fist|punch boxing|kakato|幻想纹章|mad stick|magic battleground|disaster arena|party time|游戏明星大乱斗|英雄大作战|avatar fortress",
+  "roblox_queries": [
+   "stick fight",
+   "supreme duelist",
+   "2d fighting",
+   "platform fighter",
+   "stickman fight",
+   "battlegrounds"
+  ],
+  "rbx_rx": "stick ?(fight|man)|duelist|2d fight|platform fighter|smash|battlegrounds|brawl",
+  "scratch_q": [
+   "stickman fight",
+   "street fighter"
+  ],
+  "mvp_h": [
+   110,
+   180,
+   320
+  ],
+  "launch_h": 140,
+  "upkeep_h": 30,
+  "rbx_genre": "Battlegrounds & Fighting",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "med",
+   "touch": false,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Roblox Battlegrounds is studio-dominated (43 of top-472 earners); hit-detection netcode is costly.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "run_gun_coop",
+  "zh": "横版闯关射击/动作RPG(战火英雄/二战前线/勇者之路/造梦)",
+  "loop": "side-scrolling shooter or beat-em-up with weapon unlocks, stages, bosses; 1-2P",
+  "rx": "战火英雄|strike force|二战前线|爆枪突击|合金|狼牙|未来战士|救世英雄|勇者之路|勇者之刃|勇闯地下城|dnf|西游战记|西游灭妖|国王的勇士|三国小镇|plazma burst|metal slug|box ?head|load up and kill|madness|sift heads|ray part|hobo|双箭头|机甲小子|变形金刚|骇客大战|火线风暴|突击对决|荒岛枪训|skull kid|swords & souls|epic battle fantasy|mardek|cardinal quest|king's league|大冒险|超级火柴战士|乐高|梦幻超人|城市正义|卡西龙|gunblood|scary teacher|kindergarten|fleeing the complex|escaping the prison|animator vs|khan kluay",
+  "roblox_queries": [
+   "side scroller shooter",
+   "2d shooter",
+   "metal slug",
+   "strike force heroes"
+  ],
+  "rbx_rx": "2d (shooter|rpg)|side ?scroll|metal slug|run and gun",
+  "scratch_q": [],
+  "mvp_h": [
+   180,
+   300,
+   520
+  ],
+  "launch_h": 200,
+  "upkeep_h": 40,
+  "rbx_genre": "Action RPG",
+  "screens": {
+   "s5": false,
+   "s10": true,
+   "rep": false,
+   "grief": "low",
+   "touch": false,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Content-heavy (stages, bosses, weapons). High cost per hour of play.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "stealth_heist",
+  "zh": "潜行偷盗(Bob the Robber)",
+  "loop": "sneak past guards/cameras, pick locks, grab loot, exit",
+  "rx": "bob the robber|robber|thief|stealth|heist|burglar|troll thief|偷|dig out of prison|escape from prison|barry prison|prison escape|逃狱",
+  "roblox_queries": [
+   "bob the robber",
+   "stealth heist",
+   "rob the house",
+   "thief simulator",
+   "prison escape"
+  ],
+  "rbx_rx": "rob|thief|heist|stealth|burglar|steal|prison|jail",
+  "scratch_q": [
+   "bob the robber"
+  ],
+  "mvp_h": [
+   70,
+   120,
+   220
+  ],
+  "launch_h": 100,
+  "upkeep_h": 20,
+  "rbx_genre": "Adventure",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": false,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "'Steal a ...' is the 2026 Roblox meta — demand proven but the meta is crowded.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "upgrade_drive_zombies",
+  "zh": "升级载具冲关(Earn to Die)",
+  "loop": "drive until fuel ends, smash zombies, earn, upgrade, go further",
+  "rx": "earn to die|zombie (derby|road|drive|car)|road of the dead|drive.*zombie|dead paradise",
+  "roblox_queries": [
+   "earn to die",
+   "zombie car",
+   "drive through zombies",
+   "dusty trip"
+  ],
+  "rbx_rx": "earn to die|death race|zombie.*(car|drive|road)|drive.*zombie|dusty trip|road trip",
+  "scratch_q": [
+   "earn to die"
+  ],
+  "mvp_h": [
+   60,
+   100,
+   180
+  ],
+  "launch_h": 90,
+  "upkeep_h": 20,
+  "rbx_genre": "Vehicle Sim",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "artillery_turn",
+  "zh": "回合抛物线对轰(Raft Wars/Worms/弹弹堂式)",
+  "loop": "set angle+power, lob projectile, terrain/positions change",
+  "rx": "raft wars|worms(?!\\.?zone| zone)|gunbound|ddtank|gravitee|tank stars|bow(man| master)|arrow challenge|apple shooter|孤城神箭|大炮色彩|archer|archery|炮打气球|\\\\bangle|fortress fight",
+  "roblox_queries": [
+   "raft wars",
+   "worms",
+   "artillery",
+   "bow duel",
+   "archery duel"
+  ],
+  "rbx_rx": "artillery|worms\\b|raft wars|archery duel|bow (battle|arena)|catapult duel|gunbound",
+  "scratch_q": [
+   "raft wars",
+   "worms"
+  ],
+  "mvp_h": [
+   50,
+   85,
+   160
+  ],
+  "launch_h": 70,
+  "upkeep_h": 12,
+  "rbx_genre": "Strategy",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "",
+  "rbx_ex": "hungry|worm tower|showcase|testing|bots"
+ },
+ {
+  "id": "dress_up_makeover",
+  "zh": "换装/化妆/美甲",
+  "loop": "pick outfit/makeup; (web) no fail state",
+  "rx": "dress ?up|makeover|make ?up|换装|装扮|化妆|美甲|美发|发型|面膜|公主|新娘|fashion|salon|nails|stylist|试衣|约会|y2k|bestie|snapstyle|vortella|decor life|phone case|眼影|女孩的|小美|阿sue|美女|super dress|diva",
+  "roblox_queries": [
+   "dress up",
+   "makeover",
+   "fashion show"
+  ],
+  "rbx_rx": "dress|fashion|makeover|outfit|style",
+  "scratch_q": [
+   "dress up"
+  ],
+  "mvp_h": [
+   80,
+   130,
+   240
+  ],
+  "launch_h": 150,
+  "upkeep_h": 40,
+  "rbx_genre": "Dress Up",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Dress To Impress owns this on Roblox; asset volume is the moat.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "horror_escape",
+  "zh": "恐怖逃生",
+  "loop": "first-person hide/escape from pursuer",
+  "rx": "granny|horror|scary|backrooms|haunted|poppy playtime|five nights|fnaf|恐怖|鬼|among us|amogus|^murder$|murder mafia",
+  "roblox_queries": [
+   "horror",
+   "escape horror"
+  ],
+  "rbx_rx": "horror|scary|backrooms|doors|granny",
+  "scratch_q": [],
+  "mvp_h": [
+   120,
+   200,
+   360
+  ],
+  "launch_h": 150,
+  "upkeep_h": 30,
+  "rbx_genre": "Survival",
+  "screens": {
+   "s5": true,
+   "s10": false,
+   "rep": false,
+   "grief": "low",
+   "touch": false,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Roblox survival/horror is large and studio-contested (43 of top-472 earners).",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "minigame_collection",
+  "zh": "双人/多人小游戏合集(MiniBattles/2-3-4 Player)",
+  "loop": "random 20-60 s micro-duels, running score across rounds",
+  "rx": "minibattles|mini ?battles|2[- ]?3[- ]?4 player|12 mini|party games|mini games|minigames|retro sports|乐高游戏嘉年华|dumb ways|warioware|游戏嘉年华|robby mini",
+  "roblox_queries": [
+   "2 player minigames",
+   "minibattles",
+   "epic minigames",
+   "minigames",
+   "party games"
+  ],
+  "rbx_rx": "minigame|mini ?game|party games|machine party|endless games|scroll a game|slopware|microgame|violent party|party chaos|table (mini)?games",
+  "scratch_q": [
+   "minigames"
+  ],
+  "mvp_h": [
+   80,
+   140,
+   260
+  ],
+  "launch_h": 100,
+  "upkeep_h": 25,
+  "rbx_genre": "Minigame",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": false,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Each minigame is its own small game: cost scales with count.",
+  "rbx_ex": "daycare|pet party|murder party|friday night|make a party|mimic"
+ },
+ {
+  "id": "rhythm_music",
+  "zh": "音游(FNF/钢琴块)",
+  "loop": "hit notes on beat",
+  "rx": "friday night funkin|fnf|piano|节奏大师|钢琴|magic tiles|music catch|perfect piano|beat ?ball|blob opera|choir|opera",
+  "roblox_queries": [
+   "funky friday",
+   "rhythm game",
+   "piano tiles"
+  ],
+  "rbx_rx": "funk|rhythm|piano|beat",
+  "scratch_q": [
+   "friday night funkin"
+  ],
+  "mvp_h": [
+   80,
+   140,
+   250
+  ],
+  "launch_h": 120,
+  "upkeep_h": 25,
+  "rbx_genre": "Music & Rhythm",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Music licensing risk; Funky Friday already holds the niche.",
+  "rbx_ex": "$^"
+ },
+ {
+  "id": "helix_stack_tap",
+  "zh": "超休闲单指反应(Helix Jump/Stack/Flappy)",
+  "loop": "one-tap timing with instant fail/retry",
+  "rx": "helix|stack(?! colors)|flappy|copter(?! royale)|color switch|knife hit|doodle jump|crossy|frogger|塔|tap tap|ball jump|bounce|弹跳球|red ball|plonky|perfect|rise up|zigzag|stack colors|chicken scream",
+  "roblox_queries": [
+   "flappy bird",
+   "helix jump",
+   "stack tower",
+   "crossy road",
+   "doodle jump"
+  ],
+  "rbx_rx": "flappy|helix|stack ball|crossy|cross (the|a) (road|street)|doodle jump|tap tap",
+  "scratch_q": [
+   "flappy bird",
+   "doodle jump"
+  ],
+  "mvp_h": [
+   20,
+   35,
+   70
+  ],
+  "launch_h": 40,
+  "upkeep_h": 8,
+  "rbx_genre": "Party & Casual",
+  "screens": {
+   "s5": true,
+   "s10": true,
+   "rep": true,
+   "grief": "low",
+   "touch": true,
+   "solo_ok": true,
+   "aud": true
+  },
+  "origin": "web",
+  "note": "Great on web, weak on Roblox: no social surface, <2 min sessions.",
+  "rbx_ex": "stack the shapes|color stack"
+ }
+]
